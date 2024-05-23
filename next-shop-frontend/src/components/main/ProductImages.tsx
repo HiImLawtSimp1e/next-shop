@@ -1,22 +1,26 @@
 "use client";
 
 import Image from "next/image";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
-const images = [
-  { id: 1, src: "/product/mens-jeans.jpg" },
-  { id: 2, src: "/product/mens-office-shirt.jpg" },
-  { id: 3, src: "/product/mens-plain-t-shirt.jpg" },
-  { id: 4, src: "/product/mens-running-shoes.jpg" },
-];
+interface IProps {
+  images: IImage[];
+}
 
-const ProductImages = () => {
+const ProductImages = ({ images }: IProps) => {
   const [index, setIndex] = useState(0);
+  useEffect(() => {
+    images.map((image, index) => {
+      if (image.isMain) {
+        setIndex(index);
+      }
+    });
+  }, [images]);
   return (
     <div className="">
       <div className="h-[500px] relative ">
         <Image
-          src={images[index].src}
+          src={images[index].image || "/product.png"}
           alt=""
           fill
           sizes="50vw"
@@ -24,7 +28,7 @@ const ProductImages = () => {
         />
       </div>
       <div className="flex justify-between gap-4 mt-8">
-        {images.map((image, index) => {
+        {images?.map((image, index) => {
           return (
             <div
               key={image.id}
@@ -32,7 +36,7 @@ const ProductImages = () => {
               onClick={() => setIndex(index)}
             >
               <Image
-                src={image.src}
+                src={image.image}
                 alt=""
                 fill
                 sizes="50vw"

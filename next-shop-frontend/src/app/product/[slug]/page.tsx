@@ -3,12 +3,11 @@ import ProductDetail from "@/components/main/ProductDetail";
 import { Suspense } from "react";
 
 const Product = async ({ slug }: { slug: string }) => {
-  const res = await fetch(`http://localhost:8000/products?slug=${slug}`, {
+  const res = await fetch(`http://localhost:8000/product-detail?slug=${slug}`, {
     method: "GET",
   });
 
-  const data = await res.json();
-  const product = { ...data[0] };
+  const product = await res.json();
 
   return <ProductDetail product={product} />;
 };

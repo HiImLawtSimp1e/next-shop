@@ -15,7 +15,7 @@ const Slides = async () => {
 };
 
 const Products = async () => {
-  const res = await fetch(`http://localhost:8000/products?_limit=8`, {
+  const res = await fetch(`http://localhost:8000/list-product`, {
     method: "GET",
   });
 
