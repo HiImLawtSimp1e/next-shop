@@ -4,210 +4,189 @@
       "id": 1,
       "title": "Men's Plain T-Shirt",
       "description": "Men's plain t-shirt made of 100% cotton, breathable and sweat-absorbent.",
+      "originalPrice": 24.99,
       "price": 19.99,
       "slug": "mens-plain-t-shirt",
-      "image": "/product/mens-plain-t-shirt.jpg",
-      "media_image": "",
       "categoryId": 1
     },
     {
       "id": 2,
       "title": "Women's Jeans Jacket",
       "description": "Women's fashion jeans jacket, stylish and casual, suitable for fall and winter.",
+      "originalPrice": 59.99,
       "price": 49.99,
       "slug": "womens-jeans-jacket",
-      "image": "/product/womens-jeans-jacket.jpg",
-      "media_image": "",
       "categoryId": 2
     },
     {
       "id": 3,
       "title": "Men's Jeans",
       "description": "Men's slim fit jeans made of high-quality denim, durable and trendy.",
+      "originalPrice": 39.99,
       "price": 39.99,
       "slug": "mens-jeans",
-      "image": "/product/mens-jeans.jpg",
-      "media_image": "",
       "categoryId": 1
     },
     {
       "id": 4,
       "title": "Women's Evening Dress",
       "description": "Women's evening dress with elegant design, made of soft satin, perfect for parties.",
+      "originalPrice": 89.99,
       "price": 79.99,
       "slug": "womens-evening-dress",
-      "image": "/product/womens-evening-dress.jpg",
-      "media_image": "",
       "categoryId": 2
     },
     {
       "id": 5,
       "title": "Men's Office Shirt",
       "description": "Men's office shirt made of premium material, breathable, suitable for professional work environments.",
+      "originalPrice": 34.99,
       "price": 29.99,
       "slug": "mens-office-shirt",
-      "image": "/product/mens-office-shirt.jpg",
-      "media_image": "",
       "categoryId": 1
     },
     {
       "id": 6,
       "title": "Women's Casual Blouse",
       "description": "Women's casual blouse made of lightweight fabric, perfect for everyday wear.",
+      "originalPrice": 25.99,
       "price": 25.99,
       "slug": "womens-casual-blouse",
-      "image": "/product/womens-casual-blouse.jpg",
-      "media_image": "",
       "categoryId": 2
     },
     {
       "id": 7,
       "title": "Men's Running Shoes",
       "description": "Men's running shoes with breathable mesh upper and cushioned sole.",
+      "originalPrice": 69.99,
       "price": 59.99,
       "slug": "mens-running-shoes",
-      "image": "/product/mens-running-shoes.jpg",
-      "media_image": "",
       "categoryId": 5
     },
     {
       "id": 8,
       "title": "Women's Summer Dress",
       "description": "Women's summer dress made of lightweight and breathable fabric, perfect for hot weather.",
+      "originalPrice": 44.99,
       "price": 34.99,
       "slug": "womens-summer-dress",
-      "image": "/product/womens-summer-dress.jpg",
-      "media_image": "",
       "categoryId": 2
     },
     {
       "id": 9,
       "title": "Men Solid Patched Pocket Shirt",
       "description": "DAZY Men Solid Patched Pocket Shirt- Men Shirts at SHEIN.",
+      "originalPrice": 49.99,
       "price": 49.99,
       "slug": "men-solid-patched-pocket-shirt",
-      "image": "/product/men-solid-patched-pocket-shirt.jpg",
-      "media_image": "",
       "categoryId": 1
     },
     {
       "id": 10,
       "title": "Kids' Jeans",
       "description": "Kids' jeans made of high-quality denim, durable and trendy.",
+      "originalPrice": 34.99,
       "price": 29.99,
       "slug": "kids-jeans",
-      "image": "/product/kids-jeans.jpg",
-      "media_image": "",
       "categoryId": 3
     },
     {
       "id": 11,
       "title": "Kids' T-Shirt",
       "description": "Kids' plain t-shirt made of 100% cotton, breathable and sweat-absorbent.",
+      "originalPrice": 19.99,
       "price": 14.99,
       "slug": "kids-t-shirt",
-      "image": "/product/kids-t-shirt.jpg",
-      "media_image": "",
       "categoryId": 3
     },
     {
       "id": 12,
       "title": "Kids' Hoodie",
       "description": "Kids' hoodie with stylish design, suitable for all occasions.",
+      "originalPrice": 39.99,
       "price": 39.99,
       "slug": "kids-hoodie",
-      "image": "/product/kids-hoodie.jpg",
-      "media_image": "",
       "categoryId": 3
     },
     {
       "id": 13,
       "title": "Kids' Dress",
       "description": "Kids' dress with cute and elegant design, perfect for special occasions.",
+      "originalPrice": 59.99,
       "price": 49.99,
       "slug": "kids-dress",
-      "image": "/product/kids-dress.jpg",
-      "media_image": "",
       "categoryId": 3
     },
     {
       "id": 14,
       "title": "Classic Sunglasses",
       "description": "Classic sunglasses with UV protection, suitable for all face shapes.",
+      "originalPrice": 19.99,
       "price": 19.99,
       "slug": "classic-sunglasses",
-      "image": "/product/classic-sunglasses.jpg",
-      "media_image": "",
       "categoryId": 4
     },
     {
       "id": 15,
       "title": "Leather Belt",
       "description": "Genuine leather belt with stylish buckle, perfect for formal and casual wear.",
+      "originalPrice": 39.99,
       "price": 29.99,
       "slug": "leather-belt",
-      "image": "/product/leather-belt.jpg",
-      "media_image": "",
       "categoryId": 4
     },
     {
       "id": 16,
       "title": "Beanie Hat",
       "description": "Beanie hat made of soft and warm material, suitable for cold weather.",
+      "originalPrice": 19.99,
       "price": 14.99,
       "slug": "beanie-hat",
-      "image": "/product/beanie-hat.jpg",
-      "media_image": "",
       "categoryId": 4
     },
     {
       "id": 17,
       "title": "Stylish Watch",
       "description": "Stylish wristwatch with analog display and stainless steel strap.",
+      "originalPrice": 49.99,
       "price": 39.99,
       "slug": "stylish-watch",
-      "image": "/product/stylish-watch.jpg",
-      "media_image": "",
       "categoryId": 4
     },
     {
       "id": 18,
       "title": "Casual Sneakers",
       "description": "Casual sneakers with comfortable cushioning and trendy design.",
+      "originalPrice": 49.99,
       "price": 49.99,
       "slug": "casual-sneakers",
-      "image": "/product/casual-sneakers.jpg",
-      "media_image": "",
       "categoryId": 5
     },
     {
       "id": 19,
       "title": "Flip Flops",
       "description": "Classic flip flops with durable rubber sole, perfect for beach and pool.",
+      "originalPrice": 14.99,
       "price": 9.99,
       "slug": "flip-flops",
-      "image": "/product/flip-flops.jpg",
-      "media_image": "",
       "categoryId": 5
     },
     {
       "id": 20,
       "title": "Formal Shoes",
       "description": "Elegant formal shoes made of genuine leather, suitable for formal occasions.",
+      "originalPrice": 69.99,
       "price": 59.99,
       "slug": "formal-shoes",
-      "image": "/product/formal-shoes.jpg",
-      "media_image": "",
       "categoryId": 5
     },
     {
       "id": 21,
       "title": "Sports Sandals",
       "description": "Sports sandals with adjustable straps and shock-absorbing sole, perfect for outdoor activities.",
+      "originalPrice": 39.99,
       "price": 34.99,
       "slug": "sports-sandals",
-      "image": "/product/sports-sandals.jpg",
-      "media_image": "",
       "categoryId": 5
     }
   ],
@@ -267,6 +246,302 @@
       "img": "/slider/winter-slider.jpg",
       "url": "/",
       "bg": "bg-gradient-to-r from-blue-50 to-yellow-50"
+    }
+  ],
+  "images": [
+    {
+      "id": 1,
+      "image": "/product/mens-plain-t-shirt.jpg",
+      "productId": 1,
+      "isMain": true,
+      "isSub": false
+    },
+    {
+      "id": 2,
+      "image": "/product/mens-plain-t-shirt-2.jpg",
+      "productId": 1,
+      "isMain": false,
+      "isSub": true
+    },
+    {
+      "id": 3,
+      "image": "/product/womens-jeans-jacket.jpg",
+      "productId": 2,
+      "isMain": true,
+      "isSub": false
+    },
+    {
+      "id": 4,
+      "image": "/product/womens-jeans-jacket-2.jpg",
+      "productId": 2,
+      "isMain": false,
+      "isSub": true
+    },
+    {
+      "id": 5,
+      "image": "/product/mens-jeans.jpg",
+      "productId": 3,
+      "isMain": true,
+      "isSub": false
+    },
+    {
+      "id": 6,
+      "image": "/product/mens-jeans-2.jpg",
+      "productId": 3,
+      "isMain": false,
+      "isSub": true
+    },
+    {
+      "id": 7,
+      "image": "/product/womens-evening-dress.jpg",
+      "productId": 4,
+      "isMain": true,
+      "isSub": false
+    },
+    {
+      "id": 8,
+      "image": "/product/womens-evening-dress-2.jpg",
+      "productId": 4,
+      "isMain": false,
+      "isSub": true
+    },
+    {
+      "id": 9,
+      "image": "/product/mens-office-shirt.jpg",
+      "productId": 5,
+      "isMain": true,
+      "isSub": false
+    },
+    {
+      "id": 10,
+      "image": "/product/mens-office-shirt-2.jpg",
+      "productId": 5,
+      "isMain": false,
+      "isSub": true
+    },
+    {
+      "id": 11,
+      "image": "/product/womens-casual-blouse.jpg",
+      "productId": 6,
+      "isMain": true,
+      "isSub": false
+    },
+    {
+      "id": 12,
+      "image": "/product/womens-casual-blouse-2.jpg",
+      "productId": 6,
+      "isMain": false,
+      "isSub": true
+    },
+    {
+      "id": 13,
+      "image": "/product/mens-running-shoes.jpg",
+      "productId": 7,
+      "isMain": true,
+      "isSub": false
+    },
+    {
+      "id": 14,
+      "image": "/product/mens-running-shoes-2.jpg",
+      "productId": 7,
+      "isMain": false,
+      "isSub": true
+    },
+    {
+      "id": 15,
+      "image": "/product/womens-summer-dress.jpg",
+      "productId": 8,
+      "isMain": true,
+      "isSub": false
+    },
+    {
+      "id": 16,
+      "image": "/product/womens-summer-dress-2.jpg",
+      "productId": 8,
+      "isMain": false,
+      "isSub": true
+    },
+    {
+      "id": 17,
+      "image": "/product/men-solid-patched-pocket-shirt.jpg",
+      "productId": 9,
+      "isMain": true,
+      "isSub": false
+    },
+    {
+      "id": 18,
+      "image": "/product/men-solid-patched-pocket-shirt-2.jpg",
+      "productId": 9,
+      "isMain": false,
+      "isSub": true
+    },
+    {
+      "id": 19,
+      "image": "/product/kids-jeans.jpg",
+      "productId": 10,
+      "isMain": true,
+      "isSub": false
+    },
+    {
+      "id": 20,
+      "image": "/product/kids-jeans-2.jpg",
+      "productId": 10,
+      "isMain": false,
+      "isSub": true
+    },
+    {
+      "id": 21,
+      "image": "/product/kids-t-shirt.jpg",
+      "productId": 11,
+      "isMain": true,
+      "isSub": false
+    },
+    {
+      "id": 22,
+      "image": "/product/kids-t-shirt-2.jpg",
+      "productId": 11,
+      "isMain": false,
+      "isSub": true
+    },
+    {
+      "id": 23,
+      "image": "/product/kids-hoodie.jpg",
+      "productId": 12,
+      "isMain": true,
+      "isSub": false
+    },
+    {
+      "id": 24,
+      "image": "/product/kids-hoodie-2.jpg",
+      "productId": 12,
+      "isMain": false,
+      "isSub": true
+    },
+    {
+      "id": 25,
+      "image": "/product/kids-dress.jpg",
+      "productId": 13,
+      "isMain": true,
+      "isSub": false
+    },
+    {
+      "id": 26,
+      "image": "/product/kids-dress-2.jpg",
+      "productId": 13,
+      "isMain": false,
+      "isSub": true
+    },
+    {
+      "id": 27,
+      "image": "/product/classic-sunglasses.jpg",
+      "productId": 14,
+      "isMain": true,
+      "isSub": false
+    },
+    {
+      "id": 28,
+      "image": "/product/classic-sunglasses-2.jpg",
+      "productId": 14,
+      "isMain": false,
+      "isSub": true
+    },
+    {
+      "id": 29,
+      "image": "/product/leather-belt.jpg",
+      "productId": 15,
+      "isMain": true,
+      "isSub": false
+    },
+    {
+      "id": 30,
+      "image": "/product/leather-belt-2.jpg",
+      "productId": 15,
+      "isMain": false,
+      "isSub": true
+    },
+    {
+      "id": 31,
+      "image": "/product/beanie-hat.jpg",
+      "productId": 16,
+      "isMain": true,
+      "isSub": false
+    },
+    {
+      "id": 32,
+      "image": "/product/beanie-hat-2.jpg",
+      "productId": 16,
+      "isMain": false,
+      "isSub": true
+    },
+    {
+      "id": 33,
+      "image": "/product/stylish-watch.jpg",
+      "productId": 17,
+      "isMain": true,
+      "isSub": false
+    },
+    {
+      "id": 34,
+      "image": "/product/stylish-watch-2.jpg",
+      "productId": 17,
+      "isMain": false,
+      "isSub": true
+    },
+    {
+      "id": 35,
+      "image": "/product/casual-sneakers.jpg",
+      "productId": 18,
+      "isMain": true,
+      "isSub": false
+    },
+    {
+      "id": 36,
+      "image": "/product/casual-sneakers-2.jpg",
+      "productId": 18,
+      "isMain": false,
+      "isSub": true
+    },
+    {
+      "id": 37,
+      "image": "/product/flip-flops.jpg",
+      "productId": 19,
+      "isMain": true,
+      "isSub": false
+    },
+    {
+      "id": 38,
+      "image": "/product/flip-flops-2.jpg",
+      "productId": 19,
+      "isMain": false,
+      "isSub": true
+    },
+    {
+      "id": 39,
+      "image": "/product/formal-shoes.jpg",
+      "productId": 20,
+      "isMain": true,
+      "isSub": false
+    },
+    {
+      "id": 40,
+      "image": "/product/formal-shoes-2.jpg",
+      "productId": 20,
+      "isMain": false,
+      "isSub": true
+    },
+    {
+      "id": 41,
+      "image": "/product/sports-sandals.jpg",
+      "productId": 21,
+      "isMain": true,
+      "isSub": false
+    },
+    {
+      "id": 42,
+      "image": "/product/sports-sandals-2.jpg",
+      "productId": 21,
+      "isMain": false,
+      "isSub": true
     }
   ]
 }
