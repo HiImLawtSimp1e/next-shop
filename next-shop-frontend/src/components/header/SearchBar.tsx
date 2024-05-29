@@ -1,5 +1,5 @@
 "use client";
-import { searchAction } from "@/app/action";
+import { searchAction } from "@/action";
 import Image from "next/image";
 
 const SearchBar = () => {

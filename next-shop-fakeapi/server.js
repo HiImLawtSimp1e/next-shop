@@ -103,6 +103,44 @@ server.get("/list-product", (req, res) => {
   res.json(enrichedPosts);
 });
 
+// [GET] /search-product?searchParam=
+server.get("/search-product", (req, res) => {
+  const { searchParam } = req.query;
+  if (!searchParam) {
+    return res.status(400).send({ error: "Product slug is required" });
+  }
+  // get product list
+  let products = db
+    .get("products")
+    .filter((product) =>
+      product.title.toLowerCase().includes(searchParam.toLowerCase())
+    )
+    .value();
+  // Limit the number of products
+  const limit = 8; // Change this to your desired limit
+  products = products.slice(0, limit);
+
+  // get images of product
+  const enrichedPosts = products.map((product) => {
+    const image = db
+      .get("images")
+      .find({ productId: product.id, isMain: true, isSub: false })
+      .value();
+
+    const media_image = db
+      .get("images")
+      .find({ productId: product.id, isMain: false, isSub: true })
+      .value();
+
+    return {
+      ...product,
+      image: image.image,
+      media_image: media_image.image,
+    };
+  });
+  res.json(enrichedPosts);
+});
+
 server.use(router);
 server.listen(8000, () => {
   console.log("Author: Lawther Nguyen");
